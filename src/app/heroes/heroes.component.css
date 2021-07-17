@@ -1,0 +1,11 @@
+.disp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 500px){
+    .disp {
+        flex-direction: column;
+    }
+}
